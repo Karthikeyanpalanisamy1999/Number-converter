@@ -37,7 +37,7 @@ function Hexa() {
      <div className='d-flex color1 vh-100 justify-content-center align-items-center '>
        <div className='bg-white w-50 p-5 rounded'>
          <form onSubmit={handlClick}>
-           <label htmlFor='' className='mb-3'>hexa Number</label>
+           <label htmlFor='' className='mb-3'>Hexa Number</label>
             <input type='text' className='form-control ms-3' 
             onChange={(e)=>setNum(e.target.value)}></input>
             <button type='btn' className='btn btn-success ms-3 mt-3'>Convert</button>
